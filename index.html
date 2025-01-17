@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="assets/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Aspecto Engenharia</title>
+</head>
+
+<body>
+    <header>
+        <object id="logo" data="assets/logo-escura.svg" type="image/svg+xml"></object>
+        <nav>
+            <ul>
+                <li>Início</li>
+                <li>Sobre</li>
+                <li>Trabalhe Conosco</li>
+                <li>Contatos</li>
+            </ul>
+        </nav>
+        <button>Fale Conosco</button>
+    </header>
+
+    <div id="carrossel" class="carousel slide" data-bs-ride="carousel">
+        <!-- <div class="carousel-inner">
+            <div class="carousel-item">
+                <section>
+                    <img src="assets/media/caminhao-de-lixo.webp" class="d-block" alt="Slide 1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>First Slide</h5>
+                        <p>Sample description for the first slide.</p>
+                    </div>
+                </section>
+            </div>
+            <div class="carousel-item">
+                <section>
+                    <img src="assets/media/coleta.jpeg" class="d-block" alt="Slide 2">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second Slide</h5>
+                        <p>Sample description for the second slide.</p>
+                    </div>
+                </section>
+            </div>
+            <div class="carousel-item active">
+                <section>
+                    <img src="assets/media/drone-mapping.jpg" class="d-block" alt="Slide 3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third Slide</h5>
+                        <p>Sample description for the third slide.</p>
+                    </div>
+                </section>
+            </div>
+        </div> -->
+        <div class="carousel-inner">
+            <div class="carousel-item">
+                <img src="assets/media/caminhao-de-lixo2.jpg">
+                <div class="carousel-caption">
+                    <div class="container">
+                        <h1>Caminhão de Lixo</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/media/coleta.jpg">
+                <div class="carousel-caption">
+                    <div class="container">
+                        <h1>Coleta Sustentável</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item active">
+                <img src="assets/media/mapeamento-drone.jpg">
+                <div class="carousel-caption">
+                    <div class="container">
+                        <h1>Mapeamento de drone</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carrossel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carrossel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div id="sobre" class="section">
+        <div id="sobre-imagem">
+            <h2 id="anos-experiencia"><span>17</span> <br> anos de <br> experiência</h2>
+            <img src="assets/media/environment-check.jpg" alt="">
+        </div>
+        <section id="sobre-texto">
+            <h5>
+                A ASPECTO ENGENHARIA, fundada em 2007, é uma consultoria especializada em Engenharia Ambiental e de Segurança do
+                Trabalho. Em 2018, a empresa se transformou para fortalecer seu compromisso com a sustentabilidade. <br><br>
+                A Aspecto Soluções Ambientais oferece serviços como gestão de resíduos, licenciamento ambiental e auditorias, ajudando
+                empresas a operarem de forma sustentável e a cumprirem as regulamentações ambientais.
+            </h5>
+        </section>
+    </div>
+
+    <div id="nossos-numeros" class="section">
+        <section id="sobre-numeros">
+            <h1>Ajudando a sua empresa com a <b>preservação ambiental</b></h1>
+            <h5>Isso inclui a gestão de resíduos, licenciamento ambiental, auditorias e consultorias</h5>
+
+            <button>Fale Conosco</button>
+        </section>
+        <section id="nossos-numeros-show">
+            <p class="numero-grande">+<span id="contador">0</span><i class="bi bi-building-check"></i></p>
+            <h3>Empresas confiam no nosso trabalho</h3>
+        </section>
+    </div>
+
+    <div id="porque" class="section">
+        <section>
+            <h1 class="titulo">Compromisso e dedicação 24h</h1>
+    
+            <div id="qualidades-grid">
+                <div class="qualidade-item">
+                    <div>
+                        <i class="bi bi-shield-check"></i>
+                        <h5>Ética e transparência</h5>
+                    </div>
+                    <p class="texto-qualidade-item">Ética e Transparência: Manter uma conduta ética e transparente, com
+                        honestidade em todas as relações comerciais e profissionais.</p>
+                </div>
+                <div class="qualidade-item">
+                    <div>
+                        <i class="bi bi-award"></i>
+                        <h5>Excelência técnica</h5>
+                    </div>
+                    <p class="texto-qualidade-item">Oferecer serviços de alta qualidade, baseados em conhecimento técnico
+                        atualizado e boas práticas de engenharia ambiental</p>
+                </div>
+                <div class="qualidade-item">
+                    <div>
+                        <i class="bi bi-people"></i>
+                        <h5>Responsabilidade social</h5>
+                    </div>
+                    <p class="texto-qualidade-item">Contribuir para o bem-estar das comunidades locais e da sociedade em
+                        geral, através de projetos que respeitem e beneficiem o meio ambiente</p>
+                </div>
+                <div class="qualidade-item">
+                    <div>
+                        <i class="bi bi-lightbulb"></i>
+                        <h5>Inovação e compromisso</h5>
+                    </div>
+                    <p class="texto-qualidade-item">Estimular a inovação para enfrentar desafios ambientais, cumprindo todas
+                        as leis e regulamentações aplicáveis</p>
+                </div>
+    
+            </div>
+        </section>
+    
+        <img src="assets/media/colegas-trabalhando-juntos-no-projeto.jpg" alt="">
+    </div>
+
+    <div id="nossos-servicos" class="section">
+        <h2 class="titulo">Quais serviços a Aspecto oferece?</h2>
+
+        <div class="grid-servicos">
+            <div class="servico-hero">
+                <i class="icone-servico bi bi-recycle"></i>
+                <h5 class="titulo-servico">RESÍDUOS</h5>
+                <p class="texto-servico">Frase curta e impactante sobre o item acima do texto desse lugar</p>
+            </div>
+            <div class="servico-hero">
+                <i class="icone-servico bi bi-file-earmark-check"></i>
+                <h5 class="titulo-servico">LICENÇAS AMBIENTAIS</h5>
+                <p class="texto-servico">Frase curta e impactante sobre o item acima do texto desse lugar</p>
+            </div>
+            <div class="servico-hero">
+                <i class="icone-servico bi bi-journal-check"></i>
+                <h5 class="titulo-servico">PLANEJAMENTO E AUDITORIA AMBIENTAL</h5>
+                <p class="texto-servico">Frase curta e impactante sobre o item acima do texto desse lugar</p>
+            </div>
+            <div class="servico-hero">
+                <i class="icone-servico bi bi-trash3"></i>
+                <h5 class="titulo-servico">TRATAMENTO DE RESÍDUOS</h5>
+                <p class="texto-servico">Frase curta e impactante sobre o item acima do texto desse lugar</p>
+            </div>
+        </div>
+        <div id="grid-servicos" class="grid-servicos">
+            <div class="servico-hero">
+                <i class="icone-servico bi bi-geo-alt"></i>
+                <h5 class="titulo-servico">GEOPROCESSAMENTO</h5>
+                <p class="texto-servico">Frase curta e impactante sobre o item acima do texto desse lugar</p>
+            </div>
+            <div class="servico-hero">
+                <i class="icone-servico bi bi-shield-exclamation"></i>
+                <h5 class="titulo-servico">AUTO DE VISTORIA BOMBEIRO</h5>
+                <p class="texto-servico">Frase curta e impactante sobre o item acima do texto desse lugar</p>
+            </div>
+            <div class="servico-hero">
+                <i class="icone-servico bi bi-camera"></i>
+                <h5 class="titulo-servico">MAPEAMENTO AÉREO</h5>
+                <p class="texto-servico">Frase curta e impactante sobre o item acima do texto desse lugar</p>
+            </div>
+        </div>
+        <!-- <div id="grid-servicos">
+            <section>
+                <div class="servicos-item">
+                    <div class="servico-hero">
+                        <i class="bi bi-recycle"></i>
+                        <h5>RESÍDUOS</h5>
+                    </div>
+                    <p>Frase curta e impactante sobre o item acima do texto desse lugar</p>
+                </div>
+                <div class="servicos-item">
+                    <div class="servico-hero">
+                        <i class="bi bi-file-earmark-check"></i>
+                        <h5>LICENÇAS AMBIENTAIS</h5>
+                    </div>
+                    <p>Frase curta e impactante sobre o item acima do texto desse lugar</p>
+                </div>
+                <div class="servicos-item">
+                    <div class="servico-hero">
+                        <i class="bi bi-journal-check"></i>
+                        <h5>PLANEJAMENTO E AUDITORIA AMBIENTAL</h5>
+                    </div>
+                    <p>Frase curta e impactante sobre o item acima do texto desse lugar</p>
+                </div>
+                <div class="servicos-item">
+                    <div class="servico-hero">
+                        <i class="bi bi-trash3"></i>
+                        <h5>TRATAMENTO DE RESÍDUOS</h5>
+                    </div>
+                    <p>Frase curta e impactante sobre o item acima do texto desse lugar</p>
+                </div>
+            </section>
+            <section>
+                <div class="servicos-item">
+                    <div class="servico-hero">
+                        <i class="bi bi-geo-alt"></i>
+                        <h5>GEOPROCESSAMENTO</h5>
+                    </div>
+                    <p>Frase curta e impactante sobre o item acima do texto desse lugar</p>
+                </div>
+                <div class="servicos-item">
+                    <div class="servico-hero">
+                        <i class="bi bi-shield-exclamation"></i>
+                        <h5>AUTO DE VISTORIA BOMBEIRO</h5>
+                    </div>
+                    <p>Frase curta e impactante sobre o item acima do texto desse lugar</p>
+                </div>
+                <div class="servicos-item">
+                    <div class="servico-hero">
+                        <i class="bi bi-camera"></i>
+                        <h5>MAPEAMENTO AÉREO</h5>
+                    </div>
+                    <p>Frase curta e impactante sobre o item acima do texto desse lugar</p>
+                </div>
+            </section>
+        </div> -->
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <object data="assets/logo-escura.svg" type="image/svg+xml"></object>
+                <!-- <p>Slogan da Empresa</p> -->
+            </div>
+    
+            <div class="footer-contatos">
+                <h4>Contatos</h4>
+                <!-- <p><strong>Endereço:</strong> Av. Gov. Valadares, 851 - Sala 701 - Centro, Betim - MG, 32600-216</p> -->
+                <p><strong>Telefone:</strong> (31) 3149-4040</p>
+                <p><strong>WhatsApp:</strong> (31) 99333-6222</p>
+                <p><strong>Email:</strong> contato@empresa.com</p>
+            </div>
+    
+            <div class="footer-empresa">
+                <h4>Empresa</h4>
+                <ul>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Trabalhe Conosco</a></li>
+                    <li><a href="#">Nossos Serviços</a></li>
+                    <li><a href="#">Saiba Mais</a></li>
+                    <li>Aspecto Solucoes Sustentaveis LTDA 06.280.587/0001-16</li>
+                </ul>
+            </div>
+    
+            <div class="footer-links">
+                <h4>Localização</h4>
+                <p>Avenida Governador Valadares, 851 - Sala 701 - Centro, Betim - MG, 32600-216</p>
+                <!-- <div class="social-links">
+                    <a href="https://wa.me/00912345678" target="_blank">
+                        <i class="bi bi-whatsapp"></i>
+                    </a>
+                    <a href="https://www.instagram.com/aion.agencia" target="_blank">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                </div> -->
+                <p class="produzido-por">
+                    Feito por: <a href="https://www.instagram.com/aion.agencia" target="_blank">Aion Produções</a>
+                </p>
+            </div>
+        </div>
+    
+        <div class="footer-bottom">
+            <p>© Aspecto Engenharia, Todos os direitos reservados</p>
+        </div>
+
+        <a href="https://wa.me/5531993336222">
+            <img id="whatsapp-icon" src="assets/media/logo-whatsapp-branco.svg" alt="">
+        </a>
+    </footer>
+    
+
+    <!-- <div id="contato" class="section">
+        <div class="footer-logo">
+            <img src="assets/logo-escura.svg" alt="Logo Aspecto Engenharia">
+            <p>Slogan da empresa</p>
+        </div>
+        <div class="footer-contatos">
+            <p>Endereço: Rua Exemplo, 123</p>
+            <p>Telefone: (11) 1234-5678</p>
+            <p>WhatsApp: (11) 98765-4321</p>
+            <p>Email: contato@aspectoengenharia.com.br</p>
+        </div>
+        <div class="footer-nav">
+            <h4>Empresa</h4>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#trabalhe">Trabalhe Conosco</a></li>
+                <li><a href="#servicos">Nossos Serviços</a></li>
+                <li><a href="#sobre">Saiba mais</a></li>
+            </ul>
+            <p>Razão Social: Aspecto Engenharia Ltda. | CNPJ: 12.345.678/0001-90</p>
+        </div>
+    </div>
+    
+    <footer>
+        <span>© 2024 Aspecto Engenharia. Todos os direitos reservados.</span>
+        <span>© Feito por: <a href="https://www.instagram.com/aion.agencia">Aion Produções</a></span>
+    </footer> -->
+
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
