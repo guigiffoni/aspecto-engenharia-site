@@ -15,6 +15,10 @@ html {
     scroll-behavior: auto !important;
 }
 
+body {
+    text-align: justify;
+}
+
 button {
     border-radius: 1ch;
     border: none;
@@ -233,6 +237,11 @@ nav ul li:hover {
     text-align: center;
 }
 
+.texto-qualidade-item {
+    text-align: justify;
+    padding: 0 1ch;
+}
+
 
 #nossos-servicos {
     text-align: center;
@@ -287,59 +296,15 @@ nav ul li:hover {
 
 .texto-servico {
     grid-area: texto;
-    text-align: left;
+    text-align: justify;
     padding: 1ch;
 }
-
-/* #grid-servicos > section {
-    display: flex;
-    justify-content: center;
-    gap: 2ch;
-    margin-bottom: 4ch;
-}
-
-.servicos-item {
-    width: 36ch;
-    box-shadow: 0px 0px 36px -10px rgba(0,0,0,0.4);
-    border-radius: .5ch;
-}
-
-.servicos-item > p {
-    text-align: left;
-    padding: 1ch 2ch;
-}
-
-.servico-hero {
-    display: grid;
-    grid-template-columns: 8ch 1fr;
-    height: 8ch;
-    align-items: center;
-    text-align: center;
-}
-
-.servico-hero > i.bi {
-    background-color: var(--cor5);
-    color: white;
-    font-size: 4ch;
-    border-radius: 1ch;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.servico-hero > h5 {
-    text-align: left;
-    padding-left: 1ch;
-} */
 
 
 footer {
     background-color: #222;
     color: #fff;
     padding-top: 20px;
-    font-family: Arial, sans-serif;
 }
 
 .footer-container {
@@ -361,14 +326,22 @@ footer {
 }
 
 .footer-logo object {
-    /* max-width: 150px; */
     margin-bottom: 10px;
     margin-right: 2ch;
 }
 
 .footer-logo p {
-    font-size: 14px;
     font-weight: bold;
+}
+
+.footer-contatos a {
+    padding-left: 2ch;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-contatos a:hover {
+    text-decoration: underline;
 }
 
 .footer-contatos, 
@@ -381,7 +354,6 @@ footer {
 .footer-contatos h4, 
 .footer-empresa h4, 
 .footer-links h4 {
-    font-size: 18px;
     margin-bottom: 10px;
     text-transform: uppercase;
     color: #f4a261;
@@ -390,7 +362,6 @@ footer {
 .footer-contatos p,
 .footer-links p,
 .footer-empresa ul {
-    font-size: 14px;
     line-height: 1.6;
 }
 
@@ -419,7 +390,6 @@ footer {
 }
 
 .social-links a {
-    font-size: 20px;
     color: #f4a261;
     text-decoration: none;
 }
@@ -430,7 +400,6 @@ footer {
 
 .produzido-por {
     margin-top: 15px;
-    font-size: 12px;
     text-align: right;
 }
 
@@ -447,7 +416,6 @@ footer {
     text-align: center;
     padding: 10px 0;
     background-color: #111;
-    font-size: 12px;
     border-top: 1px solid #444;
 }
 
@@ -462,66 +430,3 @@ footer {
     padding: 1ch;
     border-radius: 25%;
 }
-
-
-/* footer {
-    display: flex;
-    justify-content: space-between;
-    padding: 2ch 2ch;
-    background-color: chocolate;
-} */
-
-
-/* .footer {
-    background-color: #2f8e7c;
-    color: #fff;
-    padding: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-.footer-logo img {
-    width: 150px;
-    margin-bottom: 15px;
-}
-
-.footer-logo p {
-    font-size: 1.2rem;
-}
-
-.footer-contatos {
-    margin-bottom: 20px;
-}
-
-.footer-contatos p {
-    margin: 5px 0;
-}
-
-.footer-nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-}
-
-.footer-nav ul li {
-    margin-bottom: 10px;
-}
-
-.footer-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-.footer-nav ul li a:hover {
-    color: #d3e0e9;
-}
-
-.footer p {
-    margin-top: 20px;
-    font-size: 1rem;
-} */
